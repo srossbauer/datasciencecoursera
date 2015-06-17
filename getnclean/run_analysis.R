@@ -60,4 +60,4 @@ rm("data")
 dmf <- tbl_df(dm)
 tidyd <- dmf %>% group_by(ActivityL,Testperson) %>% summarise_each(funs(mean))
 
-write.table(tidyd, "output.txt")
+write.table(tidyd, "output.txt", row.names=FALSE)
