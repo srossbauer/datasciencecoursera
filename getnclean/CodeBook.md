@@ -25,7 +25,7 @@ The two datasets "test" and "training" are merged into one and from this dataset
 
 ###Variables in the tidy data set:
 
-all variables contain means of a larger set of data
+all variables contain means of a larger set of data. They have prior been normalised and are therefore unit less
 
 
 1. ActivityL
